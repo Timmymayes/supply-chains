@@ -1,0 +1,85 @@
+* Supply Chains
+*Overview*
+A game focused on filling supply chains to upconvert raw goods. Simplifying the fiddly nature of logistics games by removing or minimizing the spacial element of the map to focus insetad on a production chain. Utilizing a supply and demand model that has players analyzing fuzzy costs and deciding when it is best to sell an item vs move it along the supply chain.
+** Concepts
+*** Resource abundance 
+Resources represented abstractly via a tech tree or logistics chain. Each chain has production slots. Players claim slots on each tech using dice to indicate an amount. As items are used the dice tick down. When the last of a die is used it falls off and the remaining dice push left. 
+****  Resource Types
+Resources are available in different rarities or abundances common, uncommon, rare. Rarity informes pricing structuer.
+*ex*
+- Common
+  - Coal
+  - Water
+  - Stone
+- Uncommon
+  - Iron
+  - Copper
+- Rare
+  - Oil
+  - Diamond
+**** Pricing structures
+The mathematical interplay is the more dice, the lower prices are. This enables players to "flood the market" and lower opponents prices. Ultimately players are trying to buy low and sell high. The constraint is cashflow. Sometimes you must sell itermediate products to open up cash flow.
+***** Selling
+Originally I was going to limit the sell action to 1x but I don't think that is needed. Players will need to keep products in the supply chain to reach higher tiered goods. Selling your goods is always forcing you to exit at the lowest position. This means if I have I gain supply of a good and i'm right most (i.e. highest value. I must sell at the lowest current price that goods are set at.)
+
+Taking a sell action consumes the entire die. Money recieved is pips x lowest active price. Then the die is removed & lower dice are shifted up becoming more valuable.
+
+The emergence I'm hoping ffor here is that player 1(P1) selling first, when other players have cheaper dice ahead, will mean that a sale for players further down the chain get a price increase. This should help mitigate others building dice above you and help you exit your positions and preserve your ability to go liquid. It also means if I sell for high dollar amount I promote other dice if I use that money to build down the chain.
+
+Conversely, when I have cash, buying an opponents dice out of the front of the line to produce a higher value product for myself gets me a better delta, while also saving the other player from having to take a sale action.
+
+*** Production
+Intermediate products are created by combining raw resources and/or other intermediate products together. This is again tracked via placing dice on cards. 
+
+*** Market?
+Not sure if I need an independant market or if the cards them selves serve as a bit of a market? Could try implementing some kind of market system either an 18xx style one or order fulfillment.
+
+*** Logistics (not sure if this is going in)
+**** Belts
+***** short Range and cheap or mid range and costly - orthogonal, no turns
+**** Trucks
+***** Short-Medium Range with good price scaling and volume - may make any # of turns upto range
+**** Trains
+***** Medium - High Range with great goods volue and low turning. May turn once on full route. 
+**** Planes
+***** High Range ONLY - low volume - high cost used only for high tier low volume goods.
+*** Logistics Points
+Logistics points are purchased by type (see above) and tracked on the player board. When a player spends logistics points to connect two factories they must spend points from ONE type of transport. Maintaining a pool of logistics points is valuable as it provides the ability to react but it does reduce overall liquidity for factory contstruction. 
+*** Constraints
+- Dice and money.
+** Actions
+*** Purchase Dice (increasing total)
+Players start with some number of dice and may purchase more. Having more dice lets you hold out on selling just a little bit longer.
+
+This is a nice physical component limiter. Costing should not be flat & is a money sink.
+Something like
+| 15 | 30 | 45 | 60 | 60 | 60| 
+
+
+
+  
+*** Produce
+Player chooses a good to produce. The hgood will require inputs to be available. If enough are avilalbe up to 6 may be produced (6 pips)
+
+Ideally players will wan tto pay as little as possible for their good and charge the maximum. New Goods are slot filled from highest to lowest value to simulate demand. 
+*** Sell
+Selling a good can be performed at most 1x a turn? Maybe
+When selling a player sells all pips on the chosen die and sells at the current value, even if their die sits at a higher price. Once they get their cash their die is removed and all lower dice move shift up in price buckets.
+*** take or pay off Loans(free-action)
+- Take a loan or pay one off (container style maybe)
+*** Additional Ideas:
+- Research system - for bringing out more cards
+- Marketing - Shift all dice up an action slot
+- Refill - trigger a raw resource refill & gain some personal bonus
+** Technology progression
+| Stage 1 | Stage 2  | Stage 3       | Stage 4   |
+| Copper  | Oil      | Battery       | Engines   |
+| Coal    | Stone    | Adv Circuits  | Fuel      |
+| Iron    | Water    | Gears         | Cars      |
+| Steel   | Plastic  | Rubber        | Rockets   |
+| Wire    | Sand     | Sulfer        | Computers |
+| Circuts | Concrete | Sulfuric Acid |           |
+| Beams   | Glass    | Windows       |           |
+
+
+

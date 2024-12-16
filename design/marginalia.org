@@ -1,0 +1,70 @@
+
+* Master-Design-Doc
+:PROPERTIES:
+:org-remark-file: Master-Design-Doc.org
+:END:
+
+** rare
+
+** rare
+:PROPERTIES:
+:org-remark-beg: 814
+:org-remark-end: 818
+:org-remark-id: 6aced43e
+:org-remark-label: orange-fg
+:org-remark-link: [[file:Master-Design-Doc.org::8]]
+:END:
+
+** uncommon
+:PROPERTIES:
+:org-remark-beg: 804
+:org-remark-end: 812
+:org-remark-id: 6cc65bc0
+:org-remark-label: pink-fg
+:org-remark-link: [[file:Master-Design-Doc.org::8]]
+:END:
+
+** common
+:PROPERTIES:
+:org-remark-beg: 796
+:org-remark-end: 802
+:org-remark-id: d51fc56f
+:org-remark-label: cyan-fg
+:org-remark-link: [[file:Master-Design-Doc.org::8]]
+:END:
+
+** Common
+:PROPERTIES:
+:org-remark-beg: 862
+:org-remark-end: 868
+:org-remark-id: 11452067
+:org-remark-label: cyan-fg
+:org-remark-link: [[file:Master-Design-Doc.org::10]]
+:END:
+
+** Uncommon
+:PROPERTIES:
+:org-remark-beg: 900
+:org-remark-end: 908
+:org-remark-id: be777ec2
+:org-remark-label: pink-fg
+:org-remark-link: [[file:Master-Design-Doc.org::14]]
+:END:
+
+** Rare
+:PROPERTIES:
+:org-remark-beg: 931
+:org-remark-end: 935
+:org-remark-id: a7af4a5c
+:org-remark-label: orange-fg
+:org-remark-link: [[file:Master-Design-Doc.org::17]]
+:END:
+
+** not sure if this is going in
+:PROPERTIES:
+:org-remark-beg: 2904
+:org-remark-end: 2932
+:org-remark-id: 67635601
+:org-remark-label: pink-fg
+:org-remark-link: [[file:Master-Design-Doc.org::37]]
+:END:
